@@ -1,0 +1,403 @@
+@media (max-width:1050px) and (min-width:800px) {
+
+    /*****************Home Page****************************/
+    .container .main1 .totalnav .logo h4 {
+        font-size: 30px;
+    }
+
+    .container .main1 .totalnav .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .container .main1 .scroll {
+        font-size: 15px;
+    }
+
+    .container .main1 .devinfo .info .hi {
+        font-size: 45px;
+        margin-bottom: 0.65vh;
+    }
+
+    .container .main1 .devinfo .info .btn a button {
+        font-size: 15px;
+    }
+
+    .container .main1 .devinfo .info .name {
+        font-size: 35px;
+    }
+
+    .container .main1 .devinfo .info .name span {
+        font-size: 45px;
+    }
+
+    .container .main1 .devinfo .info .about {
+        font-size: 16px;
+    }
+
+    /**************project********************/
+    .container .main2 .myprojects .project1 {
+        margin-bottom: 1.75vh;
+    }
+
+    .container .main2 .myprojects .project1 .details i a {
+        font-size: 18px;
+    }
+
+    .container .main2 .myprojects .project1 .details p {
+        font-size: 16px;
+    }
+
+    .container .main2 .myprojects .project1 .details .techstack span {
+        font-size: 20px;
+    }
+
+
+    .container .main2 .myprojects .project2 .details i a {
+        font-size: 18px;
+    }
+
+    .container .main2 .myprojects .project2 .details p {
+        font-size: 16px;
+    }
+
+    .container .main2 .myprojects .project2 .details .techstack span {
+        font-size: 20px;
+    }
+
+    .container .main2 .next {
+        margin-top: 45px;
+
+    }
+
+    /********************skills*********************/
+    .container .main3 .skills .details p {
+        font-size: 14px;
+    }
+
+    /***************contact*********************/
+    .container .main4 .contactform .form .sendmsg {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:799px) and (min-width:650px) {
+
+
+
+    /*****************Home Page****************************/
+    .container .main1 .totalnav .logo h4 {
+        font-size: 30px;
+
+    }
+
+    .container .main1 .totalnav .navbar ul li {
+        margin-right: 16px;
+    }
+
+    .container .main1 .totalnav .navbar ul li a {
+        font-size: 13px;
+    }
+
+    .container .main1 .scroll {
+        font-size: 12px;
+    }
+
+    .container .main1 .devinfo .info .hi {
+        font-size: 32px;
+        margin-bottom: 0.65vh;
+    }
+
+    .container .main1 .devinfo .info .btn a button {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .container .main1 .devinfo .info .name {
+        font-size: 25px;
+    }
+
+    .container .main1 .devinfo .info .name span {
+        font-size: 28px;
+    }
+
+    .container .main1 .devinfo .info .about {
+        font-size: 12px;
+    }
+
+    /**************project********************/
+
+    .container .main2 .myprojects .project1 {
+        margin-bottom: 1.75vh;
+    }
+
+    .container .main2 .myprojects .project1 .details {
+        font-size: 16px;
+    }
+
+    .container .main2 .myprojects .project1 .details i a {
+        font-size: 14px;
+    }
+
+    .container .main2 .myprojects .project1 .details p {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project1 .details .techstack span {
+        font-size: 16px;
+    }
+
+
+    .container .main2 .myprojects .project2 .details {
+        font-size: 16px;
+    }
+
+    .container .main2 .myprojects .project2 .details i a {
+        font-size: 14px;
+    }
+
+    .container .main2 .myprojects .project2 .details p {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project2 .details .techstack span {
+        font-size: 16px;
+    }
+
+    .container .main2 .next {
+        margin-top: 25px;
+    }
+
+    .container .main2 .next p {
+        font-size: 16px;
+    }
+
+    /********************skills*********************/
+    .container .main3 .skills .details p {
+        font-size: 13px;
+    }
+
+    .container .main3 .skills .techicons .set2 img {
+        width: 60px;
+        height: 45px;
+    }
+
+    .container .main3 .skills .techicons .set3 img {
+        width: 60px;
+        height: 45px;
+    }
+
+    /***************contact*********************/
+
+    .container .main4 .contactform .form .sendmsg {
+        font-size: 12px;
+    }
+
+    .container .main4 .contactform .form input {
+        width: 330px;
+        font-size: 13px;
+    }
+
+    .container .main4 .contactform .form .message textarea {
+        width: 330px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:649px) and (min-width:330px) {
+
+    /*********************hamburger*********************/
+    .container .main1 .totalnav .hamburger {
+        display: block;
+    }
+
+    .container .main1 .totalnav .navbar .nav-item {
+        display: none;
+    }
+
+    .container .main1 .totalnav .navbar .nav-item {
+        position: fixed;
+        left: -20%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        /* background-color: #fff; */
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .container .main1 .totalnav .navbar .nav-item li a {
+        margin: 16px 0;
+    }
+
+    .container .active .main1 .totalnav .navbar .nav-item {
+        left: 0;
+    }
+
+    /******************home****************************************/
+    .container .main1 .totalnav .navbar .nav-item{
+        /* left: 40px; */
+        width: 120%;
+        height: 180px;
+        border: 2px solid rgb(229, 248, 165);
+        background-color: rgb(247, 145, 145);
+    }
+    .container .main1 .totalnav .navbar .nav-item li a{
+        font-size: 17px;
+        background: none;
+    }
+    .container .main1 .totalnav .logo h4 {
+        font-size: 35px;
+    }
+
+    .container .main1 .scroll {
+        font-size: 12px;
+        margin-left: 54px;
+    }
+
+    .container .main1 .devinfo {
+        margin-left: 30px;
+    }
+
+    .container .main1 .devinfo .pic img {
+        display: none;
+    }
+
+    .container .main1 .devinfo .info .hi {
+        font-size: 42px;
+        margin-bottom: 0.45vh;
+    }
+
+    .container .main1 .devinfo .info .btn a button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .container .main1 .devinfo .info .name {
+        font-size: 25px;
+    }
+
+    .container .main1 .devinfo .info .name span {
+        font-size: 30px;
+    }
+
+    .container .main1 .devinfo .info .about {
+        font-size: 14px;
+    }
+
+    /**************project********************/
+    .container .main2 .myprojects .project1 {
+        top: 0;
+    }
+
+    .container .main2 .myprojects .project1 .details {
+        font-size: 11px;
+    }
+
+    .container .main2 .myprojects .project1 .details i a {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project1 .details p {
+        font-size: 10px;
+    }
+
+    .container .main2 .myprojects .project1 .details .techstack i {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project1 .details .techstack span {
+        font-size: 14px;
+    }
+
+    .container .main2 .myprojects .project2 {
+        margin-top: 60px;
+    }
+
+    .container .main2 .myprojects .project2 .details {
+        font-size: 11px;
+    }
+
+    .container .main2 .myprojects .project2 .details i a {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project2 .details p {
+        font-size: 10px;
+    }
+
+    .container .main2 .myprojects .project2 .details .techstack i {
+        font-size: 12px;
+    }
+
+    .container .main2 .myprojects .project2 .details .techstack span {
+        font-size: 14px;
+    }
+
+    .container .main2 .next {
+        margin-top: 50px;
+    }
+
+    .container .main2 .next p {
+        font-size: 16px;
+    }
+
+    /********************************skills**************************************************/
+    
+    .container .main3 .skills .details {
+        margin-top: 45px;
+    }
+    .container .main3 .skills .details h2{
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration:underline;
+    }
+    .container .main3 .skills .details p {
+        font-size: 11px;
+    }
+    .container .main3 .skills .techicons{
+        margin-top: 63px;
+    }
+    .container .main3 .skills .techicons .set2 .bootstrap {
+        display: none;
+    }
+
+    .container .main3 .skills .techicons .set2 img {
+        width: 60px;
+        height: 45px;
+
+    }
+
+    .container .main3 .skills .techicons .set3 img {
+        width: 60px;
+        height: 45px;
+    }
+
+    /***************contact*********************/
+    .container .main4 .contactform .contactme {
+        font-size: 17px;
+    }
+
+    .container .main4 .contactform .describe {
+        font-size: 15px;
+    }
+
+    .container .main4 .contactform .describe span {
+        font-size: 15px;
+    }
+
+    .container .main4 .contactform .form .sendmsg {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .container .main4 .contactform .form input {
+        width: 230px;
+        font-size: 13px;
+    }
+
+    .container .main4 .contactform .form .message textarea {
+        width: 230px;
+        font-size: 15px;
+    }
+}
